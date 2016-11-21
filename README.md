@@ -20,4 +20,7 @@ Module 2 contains two functions:
   
   list_prep() formats the data from fileup() into variables and then calls mod1.doorCheck to pass in the values it formated from fileup().
   - Once it passes the arguments in to doorCheck(), doorCheck performs the calculations and returns the results of the files provided values.
-  
+
+
+Task2:
+
