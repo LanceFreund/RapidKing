@@ -16,7 +16,20 @@ def inputGet():
     elif usrin.isdigit() == False:
         print("ERROR!!! A zip code is only digits:")
     else:
-        print(usrin)
+        return usrin
+
+
+
+def printDigit(x):
+    var = []
+    for i in x:
+        #var.append(i)
+        if i == '9':
+            print("|:|::")
+        elif i == '8':
+            print("|::|:")
+        elif i == '7':
+            print("|:::|")
 
 
 def main():
@@ -26,7 +39,8 @@ def main():
     there orders.
     """
 
-    inputGet()
+    usrin = inputGet()
+    printDigit(usrin)
 
 
 if __name__ == '__main__':
